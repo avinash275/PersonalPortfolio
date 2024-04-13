@@ -7,18 +7,19 @@ import profile from "./assets/Profile2.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+
+import blockchain from "./assets/techstack/blockchain.jpeg"
+import IPFS from "./assets/techstack/IPFS.jpg"
+import Web3 from "./assets/techstack/web3.png"
 // Porject Images
 import projectImage1 from "./assets/projects/Banner.png";
 import projectImage2 from "./assets/projects/standard.jpg";
@@ -116,6 +117,9 @@ export const techStackDetails = {
   npm: npm,
   git: git,
   github: github,
+  blockchain:blockchain,
+  IPFS:IPFS,
+  Web3:Web3
 };
 
 // Enter your Project Details here
