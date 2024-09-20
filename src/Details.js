@@ -37,7 +37,7 @@ export const personalDetails = {
   name: "Avinash Jadhav",
   tagline: "I build things for web",
   img: profile,
-  about: ` I am in the final year of my Bachelor's degree in Computer Science at KKWagh Institute of Engineering, Nashik. Throughout my academic journey, I've cultivated a deep understanding of computer science principles, with a particular focus on mastering C++ and Data Structures.
+  about: ` I recently completed my Bachelor's degree in Computer Science from KKWagh Institute of Engineering, Nashik. Throughout my academic journey, I've cultivated a deep understanding of computer science principles, with a particular focus on mastering C++ and Data Structures.
   
   Beyond the classroom, I've dedicated myself to practical application and exploration of emerging technologies. I've undertaken several projects utilizing modern technologies like React and Blockchain. These projects have not only honed my technical skills but have also instilled in me a passion for innovation and problem-solving.`,
 };
@@ -83,8 +83,8 @@ export const eduDetails = [
     Company: "K.K.W.I.E.E.R, NASHIK",
     Location: "NASHIK",
     Type: "Full Time",
-    Duration: "Jan 2021 - Present",
-    Marks:"aggregate CGPA:- 8.95"
+    Duration: "Jan 2021 - June 2024",
+    Marks:"aggregate CGPA:- 8.98"
   },
   {
     Position: "HSC",
@@ -130,6 +130,7 @@ export const projectDetails = [
     description: `Evidence Shield is a blockchain and IPFS-based evidence protection system that provides a decentralized platform for
     reporting crimes and uploading various evidences and reports to maintain a chain of custody.`,
     techstack: "Ethereum Blockchain, React, Truffle, IPFS",
+    githubLink: "https://github.com/avinash275/Evidence-Shield"
   },
   {
     title: "PCB Error Detection",
@@ -137,26 +138,23 @@ export const projectDetails = [
     description: `Created a project for PCB error detection with the assistance of Python’s OpenCV library for Image processing.
      In this Project by comparing sample image with standard image counters are detected.`,
     techstack: "Python, Image Processing, Machine Learning",
+    githubLink:"https://github.com/avinash275/PCB-Detection",
+    previewLink:"https://pcb-detection-1.onrender.com/"
   },
   {
     title: "AICTE IdeaLab Using VR",
     image: projectImage3,
     description: `Created a walkthrough experince in VR of AICTE Idealab of KKWIEER College, Nashik.`,
     techstack: "Unity, Virtual Reality, Game Development",
+    previewLink:"https://youtu.be/-cs91d3Gars"
   },
-  // {
-  //   title: "Messaging Platform",
-  //   image: projectImage1,
-  //   description: `Created a Command-line Interface (CLI) for communication purposes by using C++, DataStructure And File System`,
-  //   techstack: "Ethereum Blockchain, React, Truffle, IPFS",
-  // },
   {
     title:"YOUTUBE Clone",
     image:projectImage4,
     description:`Created using React, Rapid API. In this project I have learnt how to handle different kinds of API's.`,
-    techstack:"React, Rapid API"
+    techstack:"React, Rapid API",
+    previewLink:"https://youtubeclonebyavi.netlify.app/"
   }
-  
 ];
 
 // Enter your Contact Details here
